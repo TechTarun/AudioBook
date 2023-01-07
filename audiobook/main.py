@@ -47,7 +47,7 @@ class AudioBook(object):
         self.__engine.setProperty("volume", volume)
 
     def get_library(self):
-        """get all books from the library"""
+        """Change by tarun 1"""
         total_books = os.listdir(BOOK_DIR)
         if len(total_books) == 0:
             return "You have no books in your library"
